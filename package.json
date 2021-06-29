@@ -14,7 +14,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "build:widget": "parcel build src/index.js --public-url='./'",
+    "build:widget": "parcel src/index.js --public-url ./dist/",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
