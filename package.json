@@ -14,7 +14,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "build:widget": "parcel build src/index.js --no-source-maps -d docs",
+    "build:widget": "parcel build src/index.html -d public --public-url ./",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
